@@ -1,8 +1,4 @@
-## Bookmark Manager
-
-### Project Requirements:
-
-The following user stories serve as the product specifications:
+## User Stories
 
 #### User Story One
 ```
@@ -52,8 +48,3 @@ As a user
 So I can manage my own set of bookmarks
 I would like to have a list that is mine
 ```
-
-
-## Domain Model
-
-![Bookmark Manager domain model](./public/bookmark_manager_dm.png)
