@@ -15,4 +15,11 @@ RSpec.describe 'Bookmark' do
       expect(bookmarks).to include "http://www.destroyallsoftware.com"
     end
   end
+
+  describe '.create' do
+    it 'should create a new bookmark' do
+      Bookmark.create(url: 'www.thisisatest2.com')
+      expect(Bookmark.all).to include "www.thisisatest2.com"
+    end
+  end 
 end
