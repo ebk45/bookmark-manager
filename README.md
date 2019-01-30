@@ -68,6 +68,16 @@ CREATE DATABASE bookmark_manager;
 
 To setup tables, connect to the database in `psql` and run the SQL scripts in `db/migrations`
 
+## Setting up your TEST database
+
+Connect to `psql` and create `bookmark_manager_test` database:
+
+```
+CREATE DATABASE bookmark_manager_test;
+```
+
+To setup tables, connect to the database in `psql` and run the SQL scripts in `db/migrations`
+
 ### Running the Bookmark Manager app
 
 ```
