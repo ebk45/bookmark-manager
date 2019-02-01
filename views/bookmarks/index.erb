@@ -1,11 +1,22 @@
+<!DOCTYPE html>
+<html>
 <head>
+  <link rel="stylesheet" type="text/css" href="style_sheet.css">
   <h2> Your Bookmark Manager: </h2>
   <ul>
     <% @bookmarks.each do |bookmark| %>
-      <li><a href="<%=bookmark.url%>"><%= bookmark.title %></a></li>
+      <li class="bookmark" id="bookmark-<% bookmark.id %>">
+        <a href="<%=bookmark.url%>">
+          <%= bookmark.title %>
+        </a>
+        <form action="/bookmarks/<%= bookmark.id %>" method="post">
+          <input type='hidden' name='_method' value='DELETE'/>
+          <input type="submit" value="x"/>
+      </li>
     <% end %>
   </ul>
 </head>
+<body>
 <form action="/bookmarks/create" method="post">
   <h3> Enter Title: </h3>
   <input type="text" name="title" placeholder="TITLE">
@@ -16,3 +27,5 @@
   <input type="submit" value="Add Bookmark!">
   <br>
 </form>
+</body>
+</html>

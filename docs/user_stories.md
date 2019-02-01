@@ -7,14 +7,14 @@ So I can know what bookmarks I have
 I would like to show a list of bookmarks
 ```
 
-#### User Story Two 🚧
+#### User Story Two ✅
 ```
 As a user
 So that I can save things I'm interested in
 I would like to add to my list of bookmarks
 ```
 
-#### User Story Three
+#### User Story Three 🚧
 ```
 As a user
 So that I can manage my interests
