@@ -1,12 +1,18 @@
 <head>
-  <h1> Your Bookmark Manager: </h1>
+  <h2> Your Bookmark Manager: </h2>
   <ul>
     <% @bookmarks.each do |bookmark| %>
-      <li><%= bookmark %></li>
+      <li><a href="<%=bookmark.url%>"><%= bookmark.title %></a></li>
     <% end %>
   </ul>
 </head>
 <form action="/bookmarks/create" method="post">
-  <input type="text" name="url">
+  <h3> Enter Title: </h3>
+  <input type="text" name="title" placeholder="TITLE">
+  <br>
+  <h3> Enter URL: </h3>
+  <input type="text" name="url" placeholder="URL">
+  <br>
   <input type="submit" value="Add Bookmark!">
+  <br>
 </form>
