@@ -12,6 +12,20 @@
         null,
         null
       ],
+      "/Users/ellieturnock/Makers/Projects/weekfour/bookmark-manager/spec/features/delete_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/ellieturnock/Makers/Projects/weekfour/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": [
         1,
         1,
@@ -63,9 +77,18 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1549019059
+    "timestamp": 1549031373
   }
 }
