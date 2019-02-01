@@ -16,6 +16,7 @@ require 'capybara/rspec'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
+require './spec/database_helper'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 Capybara.app = BookmarkManager
